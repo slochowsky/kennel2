@@ -1,0 +1,108 @@
+{
+  "animals": [
+    {
+      "id": 1,
+      "name": "Decker",
+      "breed": "German Sheperd"
+    },
+    {
+      "id": 2,
+      "name": "Decker",
+      "breed": "German Sheperd"
+    },
+    {
+      "id": 3,
+      "name": "Decker",
+      "breed": "German Sheperd"
+    },
+    {
+      "id": 4,
+      "name": "Decker",
+      "breed": "German Sheperd"
+    },
+    {
+      "id": 5,
+      "name": "Decker",
+      "breed": "German Sheperd"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Archie",
+      "title": "Manager"
+    },
+    {
+      "id": 3,
+      "name": "Archie",
+      "title": "Manager"
+    },
+    {
+      "name": "ddd",
+      "title": "d",
+      "id": 4
+    },
+    {
+      "name": "d",
+      "title": "d",
+      "id": 5
+    },
+    {
+      "name": "dddd",
+      "title": "ddd",
+      "id": 6
+    }
+  ],
+  "owners": [
+    {
+      "id": 1,
+      "name": "Jughead",
+      "phoneNumber": "888-909-8181",
+      "Id": "203"
+    },
+    {
+      "id": 4,
+      "name": "Jughead",
+      "phoneNumber": "888-909-8181",
+      "Id": "203"
+    },
+    {
+      "id": 5,
+      "name": "Oprah!!!!!!!",
+      "phoneNumber": "555-222-000",
+      "Id": "299"
+    },
+    {
+      "name": "jimbo",
+      "phoneNumber": "372-493-2020",
+      "id": 6
+    },
+    {
+      "name": "fluffy",
+      "phoneNumber": "615-111-0987",
+      "id": 7
+    }
+  ],
+  "locations": [
+    {
+      "id": 3,
+      "buildingSite": "East Nashville",
+      "notes": "Parking in rear"
+    },
+    {
+      "id": 4,
+      "buildingSite": "West End",
+      "notes": "No parking on Street"
+    },
+    {
+      "id": 5,
+      "buildingSite": "West End",
+      "notes": "No parking on Street"
+    },
+    {
+      "buildingSite": "nss",
+      "name": "nss",
+      "id": 6
+    }
+  ]
+}
