@@ -15,6 +15,8 @@ class EmployeeCard extends Component {
           <p>Title: {this.props.employee.title}</p>
           <Link to={`/employees/${this.props.employee.id}`}><button>Details</button></Link>
           <button type="button" onClick={() => this.props.deleteEmployee(this.props.employee.id)}>Discharge</button>
+          <button type="button"
+          onClick={() => {this.props.history.push(`/employees/${this.props.employee.id}/edit`)}}>Edit</button>
           <div>
           </div>
         </div>

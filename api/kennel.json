@@ -7,8 +7,8 @@
     },
     {
       "id": 2,
-      "name": "Decker",
-      "breed": "German Sheperd"
+      "name": "Deckeerrrrr",
+      "breed": "German Sheperrrrrr"
     },
     {
       "id": 3,
@@ -43,9 +43,9 @@
       "id": 4
     },
     {
-      "name": "d",
-      "title": "d",
-      "id": 5
+      "id": 5,
+      "name": "djkl",
+      "title": "dkd"
     },
     {
       "name": "dddd",
@@ -63,7 +63,7 @@
     {
       "id": 4,
       "name": "Jughead",
-      "phoneNumber": "888-909-8181",
+      "phoneNumber": "888-909-818",
       "Id": "203"
     },
     {
@@ -85,24 +85,19 @@
   ],
   "locations": [
     {
+      "id": 1,
+      "buildingSite": "East Nashville",
+      "notes": "Parking in rear"
+    },
+    {
       "id": 3,
       "buildingSite": "East Nashville",
       "notes": "Parking in rear"
     },
     {
-      "id": 4,
-      "buildingSite": "West End",
-      "notes": "No parking on Street"
-    },
-    {
       "id": 5,
       "buildingSite": "West End",
       "notes": "No parking on Street"
-    },
-    {
-      "buildingSite": "nss",
-      "name": "nss",
-      "id": 6
     }
   ]
 }

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import LocationManager from '../../modules/LocationManager';
-import './LocationForm.css'
+// import './LocationForm.css'
 
 class LocationForm extends Component {
     state = {
         buildingSite: "",
-        name: "",
+        notes: "",
         loadingStatus: false,
     };
 
@@ -19,13 +19,13 @@ class LocationForm extends Component {
     */
     constructNewLocation = evt => {
         evt.preventDefault();
-        if (this.state.buildingSite === "" || this.state.name === "") {
-            window.alert("Please input an location name and buildingSite");
+        if (this.state.buildingSite === "" || this.state.notes === "") {
+            window.alert("Please input an location notes and buildingSite");
         } else {
             this.setState({ loadingStatus: true });
             const location = {
                 buildingSite: this.state.buildingSite,
-                name: this.state.name,
+                notes: this.state.notes,
             };
 
             // Create the animal and redirect user to animal list
@@ -53,10 +53,10 @@ class LocationForm extends Component {
                                 type="text"
                                 required
                                 onChange={this.handleFieldChange}
-                                id="name"
-                                placeholder="Name"
+                                id="notes"
+                                placeholder="Notes"
                             />
-                            <label htmlFor="name">Name</label>
+                            <label htmlFor="notes">Notes</label>
                         </div>
                         <div className="alignRight">
                             <button
